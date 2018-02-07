@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Basic Interface</title>
+	</head>
+	
+	<body>
+		<h1> User Information Form </h1>
+		<form action="submit.php" method="post">
+			Name: <input type="text" name="User Name" placeholder= "Username" /><br /><br />
+			E-mail: <input type="email" name="User Mail" placeholder="E-mail" /><br /><br />
+			Password: <input type="password" name="PassWord" placeholder= "type your password" /><br /><br />
+			<b>Gender:</b>
+			<br /><br />
+			<input type="radio" name="gender" value="male" />Male<br /><br />
+			<input type="radio" name="gender" value="female" checked />Female<br /><br />
+			<input type="radio" name="gender" value="other" />Other<br /><br />
+		
+		
+		<select name="Division">
+			<option>Dhaka</option>
+			<option selected>Khulna</option>
+			<option>Chittagong</option>
+			<option>Rajhshahi</option>
+		</select>
+		
+		<br /><br /><br />
+		
+		
+		Comments:
+		<br />
+		
+		<textarea name="address" rows="10" cols="40"></textarea>
+		
+		<br /><br />
+		
+		<input type="submit" value="send" />
+		
+		</form>
+			
+	</body>
+
+</html>
